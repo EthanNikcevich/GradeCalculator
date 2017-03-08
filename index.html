@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/schools.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+<table border="1" cellspacing="0" cellpadding="10">
+    <tr>
+        <td><textarea rows="4" cols="50" id="tests">98, 92, 75, 80</textarea><br>Test Grades</td>
+        <td><input type="text" id="testWeight" value="30"><br>Test Weight</td>
+    </tr>
+    <tr>
+        <td><textarea rows="4" cols="50" id="quizzes">93, 87, 100, 100, 100, 72</textarea><br>Quiz Grades</td>
+        <td><input type="text" id="quizWeight" value="25"><br>Quiz Weight</td>
+    </tr>
+    <tr>
+        <td><textarea rows="4" cols="50" id="homework">100, 100, 100, 85, 65, 100, 100, 100, 0, 105, 105</textarea><br>Homework Grades</td>
+        <td><input type="text" id="homeworkWeight"value="20"><br>Homework Weight</td>
+    </tr>
+    <tr>
+        <td><textarea rows="4" cols="50" id="midterm">85</textarea><br>Midterm Grade</td>
+        <td><input type="text" id="midtermWeight"value="10"><br>Midterm Weight</td>
+    </tr>
+    <tr>
+        <td>
+            <select id="gradeNeeded">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+            </select>
+            Semester Grade Desired</td>
+        <td><input type="text" id="finalWeight"value="15"><br>Final Exam Weight</td>
+    </tr>
+
+</table>
+
+
+<button onclick="calculateGrades()">Calculate Current Grade</button>
+<button onclick="calculateFinalNeeded()">Calculate Final Exam Grade Needed</button>
+
+
+<div id="output"></div>
+
+
+</body>
+</html>

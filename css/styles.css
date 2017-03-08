@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    vertical-align: top;
+}
+
+
+td {
+    vertical-align: top;
+}
+
+
+table {
+    margin-bottom: 18px;
+}
+
+
+button {
+    font-size: 30px;
+}
+
+
+div {
+    margin: 10px 0px;
+}
